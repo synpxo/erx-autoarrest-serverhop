@@ -1,9 +1,4 @@
-local _G = getgenv()
-
-task.spawn(function()
-    script_key = _G.key
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e72dda22a300c4de5ded1a43123b0e20.lua"))()
-end)
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/e72dda22a300c4de5ded1a43123b0e20.lua"))()
 
 repeat task.wait() until _G.Functions and _G.Window and _G.Window.TabModule
 
